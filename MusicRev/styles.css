@@ -1,0 +1,177 @@
+/*
+        styles.css
+        Filename:Styles.css
+
+        Author: Joey Goodwin
+        Date: Feb 27, 2025
+*/
+
+
+
+
+
+
+/* BODY  */
+body {
+    background-color: rgb(112, 38, 112);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Site header*/
+header {
+    text-align: center;
+    background: rgb(112, 38, 112);
+    border: #000 10px solid;
+    font-size: xx-large;
+    font-family: 'Abril Fatface';font-size: 40px;
+}
+
+/* Site direction*/
+nav {
+    height: 80px;
+    background: rgb(112, 38, 112);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw-1300px) / 2);
+    border: #000 10px solid;
+}
+
+/* Ultimate Music */
+.logo {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+/* Site direction color */
+nav a {
+    text-decoration: underline;
+    color:#000;
+    padding:0 1.5rem; 
+    font-size: 1.5rem;
+}
+
+/* back ground */
+#hero {
+    background: rgb(112, 38, 112);
+    border: #000 10px solid;
+}
+
+
+/*home*/
+.courses {
+   text-align: center;
+   font-size: 23px;
+   border: #000 solid 10px;
+}
+
+
+/* CONTACT PAGE */  
+
+#container3 {
+   width: 50%;
+   margin: 50px auto;
+   background: #635e5e;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px #0000001a;
+}
+
+h2 {
+   text-align: center;
+}
+
+label {
+   font-weight: bold;
+}
+
+input, textarea {
+   width: 100%;
+   padding: 10px;
+   margin-top: 5px;
+   margin-bottom: 15px;
+   border: 1px solid #000000;
+   border-radius: 5px;
+}
+
+button {
+   width: 100%;
+   padding: 10px;
+   background-color: #fff;
+   color: #000000;
+   border: #000 solid 3px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #ce1bd4;
+}
+
+
+
+/* MAIN MENU*/
+#hero {
+   text-align: center;
+   font-size: x-large;
+}
+
+img{
+border: #2f2f31 solid 5px;
+height: 350px;
+position: center;
+}
+
+footer {
+   background-color: #8a2f8d;
+   padding: 10px;
+   text-align: center;
+   border: #000 solid 10px;
+ }
+
+
+
+/* ABOUT PAGE */
+.word {
+   flex: 1;
+   text-align: center;
+   border: #000 solid 10px;
+   font-size: x-large;
+}
+
+/* aside */
+.wordmore {
+   font-size: larger;
+   text-align: center;
+}
+
+aside {
+   flex: 3;
+   padding: 20px;
+   background-color: #8a2f8d;
+   border: #000 solid 10px;
+   border-left: #000;
+}
+
+.wordmore img {
+   align-items: center;
+}
+
+/* HOME */
+.courses {
+   background-color: #8a2f8d;
+}
+.hero {
+   background: #8a2f8d;
+}
+.hero h1 {
+  font-size: x-large;
+}
